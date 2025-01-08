@@ -1,0 +1,13 @@
+Based on the changes shown in the diff, here's a summary of what was done in the code:
+
+1. In the `package.json` file:
+   - A new script called "cody" was added. This script uses git diff and a tool called "cody" to generate commit messages.
+
+2. In the `src/app/page.tsx` file:
+   - The entire content of the Home component was replaced with a simpler version.
+   - The new version includes a basic "Hello World" message and displays the current date.
+   - The layout was simplified to a centered flex container with a large heading and a paragraph for the date.
+   - A static date variable was introduced to capture the current date when the component renders.
+
+Overall, the changes significantly simplified the Home component, removing various elements like images, links, and footer content, replacing them with a basic greeting and date display.
+
