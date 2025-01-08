@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cody": "git diff | npx cody chat -m 'me diga o que foi feito nesse codigo de forma resumida, sem trazer trechos de codigo' - > commits/mensagem.txt"
+    "cody": "git diff | npx cody chat -m 'me diga o que foi feito nesse codigo de forma resumida, sem trazer trechos de codigo' - > commits/mensagem_$(date +%Y-%m-%d_%H-%M-%S).txt"
   },
   "dependencies": {
     "next": "15.1.3",
